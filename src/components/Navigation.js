@@ -1,13 +1,13 @@
 import {Link} from "react-router-dom";
-import BitImage from '../bit7.png'
-import MainImage from '../MainImage.jpg'
+import Logo from '../logo.png'
+
 
 
 const Navigation = () => {
 	return (
-			<div>
-				<img src={MainImage} alt="Image is not available" className="mainImage" />
-     						 <div className="nav">
+		<div className="nav">
+			<div className="navigation">
+					<h3 className="logotext">boys Hostel Bit Raipur </h3>
        							 <ul className="nav-align">
          							 <li>
            								 <Link to="/">Home</Link>
@@ -29,8 +29,9 @@ const Navigation = () => {
 						             </li>
    								 </ul>
        				 </div>
-			</div>
+       			</div>
 		)
 }
 
 export default Navigation
+//<img src={MainImage} alt="Image is not available" className="mainImage" />
