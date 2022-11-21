@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import Logo from '../logo.png'
+import Logo from '../logo.jpg'
 
 
 
@@ -7,7 +7,9 @@ const Navigation = () => {
 	return (
 		<div className="nav">
 			<div className="navigation">
-					<h3 className="logotext">boys Hostel Bit Raipur </h3>
+				<div className="logoImage">
+				<img src={Logo} alt="Image is not available" className="logo" /><h3 className="logotext"><small>B</small>it <small>R</small>aipur <small>B</small>oys <small>H</small>ostel</h3>
+				</div>
        							 <ul className="nav-align">
          							 <li>
            								 <Link to="/">Home</Link>
