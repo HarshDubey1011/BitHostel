@@ -5,15 +5,13 @@ const Header = () => {
 	return (
 			<div className="Header">
 				<div className = "box">
-					<p className="text">Welcome To <small><br />BIT Raipur Boys Hostel</small></p>
-					{/* <p className="text text2">Be A Catalyst And Create Change In The Lives Of Academically Brilliant Students With High Potential</p> */}
+					<p className="text">Welcome To BIT Raipur Boys Hostel</p>
+					<small>A home away from your home</small>
+					<div className="links">
+					<button className = "login">Login</button>
 				</div>
-				<div className="links">
-					<button>Submit</button>
-					<button>Submit</button>
-					<button>Apply Now</button>
-					<button>Login</button>
 				</div>
+				
 			</div>
 			)
 }
